@@ -1,0 +1,27 @@
+body {
+    font-family: veranda, serif;
+    font-size: 1.1em;
+    background-color: silver;
+    color: darkblue;
+}
+h1{
+    font-variant: all-small-caps;
+    background-color: red;
+}
+a:hover{
+    border:1px solid darkgoldenrod;
+
+}
+.stippeltjesrand{
+    border:1px dashed darkblue;
+}
+.hyperlink{
+    list-style-type:"-";
+    /*noinspection CssInvalidPropertyValue*/
+    -moz-background-image: silver;
+}
+.figuur{
+    background-image:url("bijlagen/hyperlink.png");
+    background-repeat:no-repeat;
+    padding-left:16px;
+}
