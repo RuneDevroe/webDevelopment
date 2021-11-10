@@ -1,0 +1,32 @@
+.maand{
+    background-color: rgb(170,170,200);
+}
+.dagen{
+    background-color: rgb(35,37,70);
+    color: rgb(200,190,240);
+}
+tr>td.nietDezeMaand{
+    background-color: #8D99AE;
+    color: grey;
+}
+.vrijeDag{
+    background-color: rgb(250,120,120);
+}
+TABLE {
+    border-collapse: collapse;
+    border: solid 2px black;
+}
+TD    {
+    border: dotted 1px black;
+    text-align: center;
+}
+TH {
+    border: dotted 1px #0070A8;
+}
+td:first-child{
+    background-color: rgb(255,220,220);
+}
+td:last-child{
+    background-color: rgb(255,220,220);
+}
+

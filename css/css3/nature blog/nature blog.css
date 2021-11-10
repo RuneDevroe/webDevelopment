@@ -1,0 +1,42 @@
+body{
+    width:1200px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial;
+}
+.hoofd{
+    background-image: url("header.jpg");
+    margin:0;
+    height: 100px;
+    color: white;
+    font-size: 2em;
+
+}
+nav{
+    background-color: #2b2d42;
+    color: black;
+
+}
+.nav{
+    color: aqua;
+    text-decoration: none;
+    font-family: Arial;
+}
+header{
+    margin-top: 0;
+
+}
+article {
+    background-color: #edf2f4;
+}
+
+section>article>header>h1{
+    margin:5px;
+    text-decoration : underline;
+    font-size:1em;
+    padding-top:25px;
+    color: #2b2d42;
+}
+footer{
+    margin:10px;
+}

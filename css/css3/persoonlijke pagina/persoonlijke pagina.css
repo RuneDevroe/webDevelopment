@@ -1,0 +1,23 @@
+body{
+    background-color: gray;
+    margin:0;
+}
+table{
+    border:1px solid darkgoldenrod;
+}
+td{
+    border: 3px solid white;
+    margin:0;
+}
+h1{
+    color: white;
+    text-decoration: underline;
+    font-size: 1.5em;
+}
+h2{
+    color: white;
+    font-size: 1em;
+}
+td{
+    width:30%;
+}
