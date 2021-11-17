@@ -1,7 +1,23 @@
 body{
     font-family: "Calibri Light", serif;
+    margin: 0px;
 
 }
+
+button{
+    border-radius: 8px;
+    padding: 8px;
+    text-decoration: none;
+}
+
+button a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
 header{
     padding: 80px;
     text-align: center;
@@ -55,9 +71,10 @@ h2{
 /* Main column */
 .main {
     flex: 100%; /* Set the width of the main content */
-    background-color: white; /* White background color */
     padding: 20px; /* Some padding */
 }
+
+
 
 @media screen and (max-width: 700px) {
     .row {
