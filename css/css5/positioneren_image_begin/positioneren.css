@@ -1,0 +1,27 @@
+body {
+    font: 1.25em sans-serif;
+    margin: 0px;
+}
+ article {
+border: 1px solid black;
+     padding: 10px;
+     min-height: 240px;
+     margin: 0 10px 10px;
+
+
+ }
+ article:nth-child(even) img {
+     float: right;
+     vertical-align: center;
+ }
+article:nth-child(odd) img {
+    float: left;
+    vertical-align: center;
+}
+  h2 {
+margin-top: 0;
+  }
+   p {
+line-height: 1.25;
+       margin: 0;
+   }

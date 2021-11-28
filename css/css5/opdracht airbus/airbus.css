@@ -1,0 +1,103 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    width: 960px;
+    background: #E6E6E6 url('fotos/pagebackground.png') repeat-y center top;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+#top{
+    position: relative;
+    height: 200px;
+    background-image: url("fotos/bgsky3.jpg");
+}
+
+.airplaneH{
+    position: absolute;
+    z-index: 1;
+    right: 90px;
+    bottom: 60px;
+    background-image: url("fotos/tekklein.png");
+}
+.titel{
+    font-size: 300%;
+    position: center;
+    font-weight: bold;
+    font-style: italic;
+}
+.ondertitel{
+    font-size: 240%;
+    font-weight: bold;
+
+}
+
+#news{
+    box-sizing: border-box;
+    float: right;
+    width: 250px;
+    background-color:#dddddd;
+    border: 1px solid #666666;
+    font-size: 90%;
+    padding-left: 10px;
+}
+
+.foto{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 10px 10px;
+    background-color: white;
+    border: 1px dashed #999999;
+
+}
+
+.foto>img{
+    padding: 10px 0 0 10px;
+}
+
+#main{
+    box-sizing: border-box;
+    width: 700px;
+    float: left;
+}
+.logo{
+    float: left;
+    padding: 20px 30px 20px 20px;
+
+    height: 150px;
+}
+span{
+    font-weight: bold;
+    color: blue;
+    font-family: "Harlow Solid Italic", sans-serif;
+}
+.gallery{
+    background-color: #999999;
+}
+
+#bottom{
+ clear: both;
+    background-color: #666666
+
+}
+.block{
+    padding-left: 120px;
+ display: inline-block;
+    color: white;
+}
+a {
+    font-family: Verdana, Geneva, sans-serif;
+    color: white;
+}
+.copyright{
+    text-align: center;
+}
+a:hover{
+    color: red;
+}
+div>h3{
+    background-color: blue;
+    text-align: center;
+    padding-left: 0;
+    color: white;
+}
