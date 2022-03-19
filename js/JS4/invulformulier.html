@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>invulformulier</title>
+</head>
+<body>
+<label for="firstname">First Name*:</label>
+<input required type="text" placeholder="Your first name" id="firstname">
+<br>
+<label for="lastname">Last Name*:</label>
+<input required type="text" placeholder="Your last name" id="lastname">
+<p>Which sport do you train?</p>
+<label for="running">Running</label>
+<input type="checkbox" id="running">
+<br>
+<label for="swimming">Swimming</label>
+<input type="checkbox" id="swimming">
+<br>
+<label for="rowing">Rowing</label>
+<input type="checkbox" id="rowing">
+<p>Whats your gender?</p>
+<input type="radio" name="gender" id="male">
+<label for="male" name="gender">Male</label>
+<br>
+<input type="radio" name="gender" id="female">
+<label for="female" >Female</label>
+<br>
+<label for="favoriteMovie">Favorite movie:</label>
+<input type="text" id="favoriteMovie">
+<br>
+<label for="favoriteQuote">Favorite quote:</label>
+<input type="text" placeholder="Write your favorite quote" id="favoriteQuote">
+<br>
+<label for="password">Password*:</label>
+<input required type="password" id="password">
+<br>
+<label for="favoriteFood">Favorite food:</label>
+<select name="food" id="favoriteFood" size="1">
+    <option value="Hamburger">Hamburger </option>
+</select>
+<br>
+<input type="button" value="Bestand Kiezen">
+<span>geen bestand gekozen</span>
+<br>
+<label for="emailAdres">Email adress:</label>
+<input type="text" placeholder="Enter your email adress" id="emailAdres">
+<br>
+<label for="favoriteSite">Favorite site:</label>
+<input type="text" placeholder="Enter your URL from your Favorite site" id="favoriteSite">
+<br>
+<label for="favoriteNumber">Favorite number between 1-10:</label>
+<input type="number" min="1" max="10" id="favoriteNumber">
+<br>
+<label for="favoriteNumber2">Favorite number between 11-1000:</label>
+<input type="range" min="11" max="1000" id="favoriteNumber2">
+<br>
+<label for="born">When where you born?</label>
+<input type="date" placeholder="Dag/Maand/Jaar" id="born">
+<br>
+<label for="zip">Belgium zip-code reg number*:</label>
+<input required type="number" min="1000" max="9999" placeholder="4444" id="zip">
+<br>
+<label for="something">Search for something:</label>
+<input type="search" id="something">
+<br>
+<label for="color">Whats your Favorite Color?</label>
+<input type="color" id="color">
+<br>
+<input type="submit" value="submit">
+</body>
+</html>
