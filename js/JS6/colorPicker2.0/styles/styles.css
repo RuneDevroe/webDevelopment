@@ -19,25 +19,6 @@
 	border-radius:10px;
     margin-bottom:20px;
 }
-
-/*
-
-Bovenstaande is ongewijzigd t.o.v. de colopicker oplossing
-(behalve dan dat de colorpicker een margin-bottom kreeg)
-
-*/
-
-
-/*
-
-We splitsen het border-radius aspect af in een aparte CSS-klasse
-zodat we het overgrote deel kunnen gebruiken voor zowel de swatch
-in de colorpicker (met afgerond hoeken) en de nieuwe swatches die
-we onderaan toevoegen. De swatch in de colorpicker zal dus twee
-CSS-classes moeten krijgen, swatch en rounded
-
-*/
-
 .swatch {
     display:inline-block;
     border:solid 1px black;

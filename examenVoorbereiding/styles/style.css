@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/*-- header --*/
+header{
+    padding: 10px;
+    text-align: center;
+    background: #2b2d42 ;
+    color: #8D99AE;
+}
+
+/*--  navigation --*/
+.navbar {
+    overflow: hidden;
+    background-color: #8D99AE;
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/*-- side --*/
+aside{
+    margin: 10px;
+    height: 100px;
+    box-sizing: border-box;
+    float: left;
+}
+
+
+/*-- section --*/
+
+
+
+
+h1 {
+    margin: 5px;
+}
+p{
+    margin: 0;
+}
