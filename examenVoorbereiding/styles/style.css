@@ -32,8 +32,10 @@ header{
 
 /*-- side --*/
 aside{
+    border: black 1px solid;
     margin: 10px;
-    height: 100px;
+    height: 250px;
+    width: 30%;
     box-sizing: border-box;
     float: left;
 }
@@ -48,5 +50,8 @@ h1 {
     margin: 5px;
 }
 p{
+    margin: 0;
+}
+h3{
     margin: 0;
 }
