@@ -20,4 +20,7 @@ const setup = () => {
     let student1 = JSON.parse(string);
     console.log(student1);
 }
+
+
+
 window.addEventListener("load", setup);
